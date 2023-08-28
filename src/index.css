@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,700;1,400;1,700&family=Inter:wght@400;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.custom-container {
+  padding: 1.2rem;
+}
+
+.custom-container--main {
+  min-height: 100vh;
+  outline: 1px solid;
+
+  padding: 1.2rem;
+}
+
+.custom-font--inter {
+  font-family: "Inter", sans-serif;
+}
+
+.custom-font--inria {
+  font-family: "Inria Serif", serif;
+}
+
+.debug-outline {
+  outline: 1px solid black;
+}
