@@ -9,8 +9,7 @@ const Hero = () => {
           Turning Designs Into Reality
         </h1>
         <p className="text-sm md:text-base lg:text-lg leading-relaxed">
-          A Front-End Developer proficient in design implementation and
-          responsiveness.
+          From UI to logic—I build things that work and look good.
         </p>
       </div>
       <div className="illustration flex-1 max-w-5xl">

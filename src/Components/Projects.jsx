@@ -8,8 +8,8 @@ const Projects = () => {
   return (
     <section className="py-5 flex flex-col md:py-10 md:flex-row gap-16 border-b-[1px] border-black">
       <div className="pb-5 border-b-[1px] md:min-w-[300px] md:border-r-[1px] md:border-b-0 border-black">
-        <h2 className="custom-font--inria text-4xl text-center font-light uppercase sticky top-0">
-          my projects
+        <h2 className="custom-font--inria text-xl text-center font-light uppercase sticky top-0">
+          personal projects
         </h2>
       </div>
       <div className="flex-1 flex flex-col gap-8">
@@ -23,7 +23,7 @@ const Projects = () => {
           link="https://gabrielsuba-easybank.netlify.app/"
         />
         <div className="w-full min-h-[1px] bg-black"></div>
-        <Card
+        {/* <Card
           image={project2}
           title={"Peak-a-blog!"}
           description={
@@ -32,7 +32,7 @@ const Projects = () => {
           tech={["html", "css", "react", "firebase"]}
           link="https://peak-a-blog.netlify.app/"
         />
-        <div className="w-full min-h-[1px] bg-black"></div>
+        <div className="w-full min-h-[1px] bg-black"></div> */}
         <Card
           image={project5}
           title={"dictionary web app"}

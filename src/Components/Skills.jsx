@@ -49,18 +49,18 @@ const Skills = () => {
           <div className="w-[50px] h-[50px]">
             <Image url={node} alt={"Node logo"} />
           </div>
-          <div className="w-[50px] h-[50px]">
+          {/* <div className="w-[50px] h-[50px]">
             <Image url={fbase} alt={"Firebase logo"} />
-          </div>
-          <div className="w-[50px] h-[50px]">
+          </div> */}
+          {/* <div className="w-[50px] h-[50px]">
             <Image url={mongo} alt={"MongoDB logo"} />
-          </div>
+          </div> */}
           <div className="w-[50px] h-[50px]">
             <Image url={mysql} alt={"MySQL logo"} />
           </div>
-          <div className="w-[50px] h-[50px]">
+          {/* <div className="w-[50px] h-[50px]">
             <Image url={vue} alt={"VueJS logo"} />
-          </div>
+          </div> */}
         </div>
       </section>
 
