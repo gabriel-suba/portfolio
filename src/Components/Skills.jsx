@@ -6,10 +6,10 @@ import js from "../assets/stack/js.svg";
 import react from "../assets/stack/react.svg";
 import tailwind from "../assets/stack/tailwind.svg";
 import node from "../assets/stack/node.svg";
-import fbase from "../assets/stack/fbase.svg";
-import mongo from "../assets/stack/mongo.svg";
 import mysql from "../assets/stack/mysql.svg";
-import vue from "../assets/stack/vue.svg";
+// import fbase from "../assets/stack/fbase.svg";
+// import mongo from "../assets/stack/mongo.svg";
+// import vue from "../assets/stack/vue.svg";
 
 import vscode from "../assets/tools/vscode.svg";
 import vs from "../assets/tools/vs.svg";
@@ -22,13 +22,11 @@ const Skills = () => {
     <>
       {/* TECH STACK --------------------------------------------------------------- */}
       <section className="py-4 flex flex-col lg:flex-row lg:py-8 gap-3 border-b-[1px] border-black">
-        <div className="pb-4 min-w-[120px] self-center lg:pb-0">
-          <h2 className="custom-font--inria text-lg text-center lg:text-right uppercase">
-            Tech Stack
-          </h2>
-        </div>
-
-        <div className="min-h-[100%] w-[1px] bg-black mx-3"></div>
+				<div className="border-b-[1px] border-black lg:border-b-0 lg:min-w-[300px] lg:border-r-[1px]">
+					<h2 className="pb-5 custom-font--inria text-xl text-center font-light uppercase sticky top-0">
+						Tech Stack
+					</h2>
+				</div>
 
         <div className="w-full flex gap-16 flex-wrap justify-center">
           <div className="w-[50px] h-[50px]">
@@ -67,13 +65,11 @@ const Skills = () => {
       {/* TOOLS -------------------------------------------------------------------- */}
 
       <section className="py-4  flex flex-col lg:flex-row lg:py-8 gap-3 border-b-[1px] border-black">
-        <div className="pb-4 min-w-[120px] self-center lg:pb-0">
-          <h2 className="custom-font--inria text-lg text-center lg:text-right uppercase">
-            Tools
-          </h2>
-        </div>
-
-        <div className="min-h-[100%] w-[1px] bg-black mx-3"></div>
+				<div className="border-b-[1px] border-black lg:border-b-0 lg:min-w-[300px] lg:border-r-[1px]">
+					<h2 className="pb-5 custom-font--inria text-xl text-center font-light uppercase sticky top-0">
+						Tools
+					</h2>
+				</div>
 
         <div className="w-full flex gap-16 flex-wrap justify-center">
           <div className="w-[50px] h-[50px]">

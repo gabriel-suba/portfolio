@@ -3,7 +3,6 @@ import Hero from "./Components/Hero";
 import Skills from "./Components/Skills";
 import Offer from "./Components/Offer";
 import Projects from "./Components/Projects";
-import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
         <Offer />
         <Skills />
         <Projects />
-        <Contact />
         <Footer />
       </div>
     </div>
